@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maxfiylik siyosati (bola ilovasi) — Nozir</title>
+<meta name="description" content="Nozir — bola ilovasi uchun maxfiylik siyosati">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f7f8fa;
+    --text: #15181d;
+    --muted: #5b6472;
+    --border: #e3e6ea;
+    --accent: #0f7b6c;
+    --accent-soft: #e6f3f0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #101317;
+      --surface: #171b21;
+      --text: #eef1f5;
+      --muted: #9aa4b2;
+      --border: #262c35;
+      --accent: #4fd1b8;
+      --accent-soft: #14312c;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #101317;
+    --surface: #171b21;
+    --text: #eef1f5;
+    --muted: #9aa4b2;
+    --border: #262c35;
+    --accent: #4fd1b8;
+    --accent-soft: #14312c;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 16px 72px; }
+  header.doc { border-bottom: 1px solid var(--border); padding-bottom: 20px; margin-bottom: 8px; }
+  .brand {
+    display: inline-block; font-weight: 700; letter-spacing: .02em;
+    color: var(--accent); font-size: 15px; text-transform: uppercase; margin-bottom: 10px;
+  }
+  h1 { font-size: 27px; line-height: 1.25; margin: 0 0 10px; letter-spacing: -.01em; }
+  .meta { color: var(--muted); font-size: 14px; margin: 0; }
+  h2 { font-size: 21px; margin: 38px 0 10px; line-height: 1.3; }
+  h3 { font-size: 17px; margin: 26px 0 8px; color: var(--text); }
+  p, li { color: var(--text); }
+  p { margin: 0 0 14px; }
+  ul { padding-left: 22px; margin: 0 0 14px; }
+  li { margin-bottom: 6px; }
+  strong { font-weight: 650; }
+  hr { border: 0; border-top: 1px solid var(--border); margin: 30px 0; }
+  blockquote {
+    margin: 18px 0; padding: 14px 16px; background: var(--accent-soft);
+    border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0;
+  }
+  blockquote p:last-child { margin-bottom: 0; }
+  .table-wrap { overflow-x: auto; margin: 0 0 18px; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; min-width: 420px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { background: var(--surface); font-weight: 650; }
+  tbody tr:last-child td { border-bottom: 0; }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .9em;
+    background: var(--surface); padding: 1px 5px; border-radius: 4px;
+  }
+  footer.doc { margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
+  @media print {
+    body { font-size: 12pt; }
+    .wrap { max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="doc">
+  <span class="brand">Nozir</span>
+  <h1>Maxfiylik siyosati (bola ilovasi)</h1>
+  <p class="meta">Versiya: 1.0</p>
+</header>
+<h2>Senga — ochiq va qisqa</h2>
+<p>Bu ilova telefoningdagi ba'zi narsalarni ota-onangga ko'rsatadi. Nimalar ko'rinishini va nimalar <strong>hech qachon</strong> ko'rinmasligini bilib qo'yishing kerak. Yashiradigan narsamiz yo'q.</p>
+<h3>Ota-onang ko'radi</h3>
+<ul>
+<li>Qaysi ilovada qancha vaqt o'tkazganingni — soat va kun bo'yicha</li>
+<li>Telefoningda qanday ilovalar borligini</li>
+<li>Qayerdaligingni — <strong>faqat ota-onang kuzatuvni yoqqan bo'lsa</strong> yoki sen SOS tugmasini bosganingda</li>
+<li>Batareyang necha foizligini</li>
+<li>Kunlik limit va uyqu vaqti bajarilgan-bajarilmaganini</li>
+<li>SOS bosganingni: vaqti va joylashuving</li>
+</ul>
+<h3>Ota-onang ko'rMAYDI</h3>
+<ul>
+<li>Xabarlaringni, SMS va chatlaringni — <strong>matnini ham, kim bilan yozishganingni ham</strong></li>
+<li>Suratlaring, videolaring va fayllaringni</li>
+<li>Parollaringni</li>
+<li>Atrofingdagi ovozni — ilova mikrofonni umuman ishlatmaydi</li>
+</ul>
+<h3>Sen ham ko'rasan</h3>
+<p>Ilovadagi <strong>"Ma'lumot jurnali"</strong> bo'limida har safar ma'lumoting o'qilgani yoziladi: ota-onang joylashuvingni so'ragani, foydalanish ma'lumoting yuborilgani, qoidalar o'zgartirilgani. Bu jurnal sen uchun — kuzatuv yashirin bo'lmasligi uchun.</p>
+<h2>Joylashuv haqida alohida</h2>
+<p>Joylashuv doim emas, ota-onang belgilagan tartibda olinadi (masalan, har 10 daqiqada) va SOS bosilganda. Telefoningda joylashuv o'chiq bo'lsa, ilova uni yoqa olmaydi — bu faqat sening qo'lingda. Lekin joylashuv olinmayotgani ota-onangga ko'rinadi: yashirilmaydi.</p>
+<p><strong>Nega yoqiq turishi muhim:</strong> SOS bosganingda ota-onang qayerdaligingni darhol ko'radi. Joylashuv o'chiq bo'lsa, yordam kechikadi.</p>
+<h2>SOS</h2>
+<p>SOS tugmasini bosganingda yoki telefonni silkitganingda ota-onangga xabar va o'sha paytdagi joylashuving yuboriladi. Bu <strong>har doim, har qanday obunada</strong> ishlaydi va hech qachon pullik bo'lmaydi.</p>
+<hr />
+<h2>Rasmiy qism</h2>
+<h3>1. Yig'iladigan ma'lumotlar</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Ma'lumot</th>
+<th>Izoh</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ism va tug'ilgan yili</td>
+<td>Ota-onang kiritadi. To'liq sana emas, faqat yil</td>
+</tr>
+<tr>
+<td>Telefon raqami (ixtiyoriy)</td>
+<td>SOS paytida qo'ng'iroq qilish uchun</td>
+</tr>
+<tr>
+<td>Ilovalardan foydalanish vaqti</td>
+<td>Paket nomi va daqiqalar; 15 daqiqalik oraliqlarda</td>
+</tr>
+<tr>
+<td>O'rnatilgan ilovalar ro'yxati</td>
+<td>Qoida qo'yish uchun</td>
+</tr>
+<tr>
+<td>Joylashuv</td>
+<td>Koordinata, aniqlik radiusi va olingan vaqti</td>
+</tr>
+<tr>
+<td>Batareya foizi</td>
+<td>Joylashuv bilan birga</td>
+</tr>
+<tr>
+<td>Telefon modeli, OS versiyasi, ilova versiyasi, til</td>
+<td>Mosligi va qo'llab-quvvatlash uchun</td>
+</tr>
+<tr>
+<td>Push token</td>
+<td>Bildirishnoma yuborish uchun</td>
+</tr>
+<tr>
+<td>SOS hodisalari</td>
+<td>Vaqti, joylashuvi, holati</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Yig'ilmaydi:</strong> xabar matnlari, kontaktlar, suratlar, fayllar, mikrofon ovozi, IMEI, IMSI, MAC manzil, Android ID, reklama identifikatori.</p>
+<h3>2. Nima uchun</h3>
+<p>Ilova ota-onaga bolasining telefondan foydalanishini tushunish va xavfli holatlarda yordam berish imkonini beradi. Ma'lumotlar <strong>faqat shu maqsadda</strong> ishlatiladi: sotilmaydi, reklama uchun ishlatilmaydi, reklama tarmoqlariga berilmaydi.</p>
+<p>Huquqiy asos: ota-ona (qonuniy vakil) roziligi; SOS holatida — hayotiy manfaatlarni himoya qilish.</p>
+<h3>3. Kimga uzatiladi</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Qabul qiluvchi</th>
+<th>Nima</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Google (Firebase Cloud Messaging)</td>
+<td>Push token va bildirishnoma</td>
+</tr>
+<tr>
+<td>Google (Firebase Crashlytics)</td>
+<td>Ilova ishdan chiqqanidagi texnik ma'lumot. Foydalanuvchi ID yuborilmaydi</td>
+</tr>
+<tr>
+<td>Google (Gemini AI)</td>
+<td><strong>Faqat raqamlar:</strong> kunlik daqiqalar va kategoriyalar. Ism, ID, koordinata va matn yuborilmaydi</td>
+</tr>
+<tr>
+<td>Server hosting: [PROVAYDER, JOYLASHUVI]</td>
+<td>Yuqoridagi ma'lumotlar saqlanadi</td>
+</tr>
+</tbody>
+</table></div>
+<p>Ba'zi xizmatlarning serverlari O'zbekistondan tashqarida.</p>
+<h3>4. Qancha saqlanadi</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Ma'lumot</th>
+<th>Muddat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Batafsil foydalanish yozuvlari</td>
+<td>90 kun</td>
+</tr>
+<tr>
+<td>Kunlik jamlanma</td>
+<td>400 kun</td>
+</tr>
+<tr>
+<td>Joylashuv nuqtalari</td>
+<td>30 kun</td>
+</tr>
+<tr>
+<td>SOS hodisalari</td>
+<td>730 kun</td>
+</tr>
+<tr>
+<td>Bildirishnomalar</td>
+<td>180 kun</td>
+</tr>
+<tr>
+<td>AI xulosalar</td>
+<td>400 kun</td>
+</tr>
+<tr>
+<td>Xavfsizlik jurnali</td>
+<td>1095 kun</td>
+</tr>
+</tbody>
+</table></div>
+<h3>5. Huquqlaring</h3>
+<ul>
+<li><strong>Ko'rish:</strong> "Ma'lumot jurnali" bo'limida ma'lumoting qachon o'qilganini ko'rasan.</li>
+<li><strong>O'chirish so'rovi:</strong> ilova ichidan yuborasan. So'rov ota-onangga boradi, chunki hisobni u ochgan. Hisob o'chirilsa, ma'lumot 7 kundan keyin butunlay o'chiriladi.</li>
+<li><strong>Savol berish:</strong> ilova ichidagi qoʻllab-quvvatlash orqali savol bera olasan.</li>
+</ul>
+<h3>6. Xavfsizlik</h3>
+<p>Ma'lumotlar shifrlangan ulanish (HTTPS) orqali uzatiladi va serverga kirish cheklangan. Ammo internetda mutlaq xavfsizlik yo'q — buni ochiq aytamiz.</p>
+<h3>7. O'zgarishlar</h3>
+<p>Siyosat o'zgarsa, ilovada xabar beramiz va hujjat versiyasini yangilaymiz.</p>
+<footer class="doc">Nozir — bola ilovasi uchun maxfiylik siyosati</footer>
+</div>
+</body>
+</html>
